@@ -51,7 +51,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     margin-top: 6px;
-    font-family: 'Sancreek', cursive;
+    font-family: 'Confidel', cursive;
     text-shadow: 7px 2px 0 rgba(255,255,255,0.3);
 }
 
@@ -118,14 +118,12 @@ body{
 }
 
 .extra-text {
-    display: block;
-    line-height: 180px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 300px;
     color: rgba(255,255,255,1);
-    font-size: 180px;
-    font-weight: 400;
+    font-size: 80px;
     text-transform: uppercase;
     text-align: center;
     margin-top: 6px;
-    font-family: 'Sancreek', cursive;
-    text-shadow: 7px 2px 0 rgba(255,255,255,0.3);
 }
