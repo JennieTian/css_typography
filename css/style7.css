@@ -44,11 +44,11 @@ body{ background-image: url(../images/strange_bullseyes.jpg); }
 }
 
 .cs-text span:nth-child(odd) {
-    background: rgba(118,176,204, 0.8) url(../images/noise.png);
+    background: rgba(156,151,209, 0.8) url(../images/noise.png);
 }
 
 .cs-text span:nth-child(even) {
-    background: rgba(58,126,162, 0.8) url(../images/noise.png);
+    background: rgba(154,130,161, 0.8) url(../images/noise.png);
 }
 
 .cs-text span:nth-child(1) {

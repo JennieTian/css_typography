@@ -11,35 +11,24 @@
     <meta name="author" content="Codrops" />
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
-    <link rel="stylesheet" type="text/css" href="css/style7.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|McLaren' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Sancreek|Raleway:100' rel='stylesheet' type='text/css' />
     <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
     <!--[if lte IE 8]><style>.support-note .note-ie{display:block;}</style><![endif]-->
-    <script type="text/javascript">
-        // Don't use this code on your site
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-7243260-2']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
 </head>
 <body>
-<!--<div class="container">-->
+<div class="container">
 
-    <!-- Codrops top bar -->
+    <!--&lt;!&ndash; Codrops top bar &ndash;&gt;-->
     <!--<div class="codrops-top">-->
         <!--<a href="http://tympanus.net/Development/BookBlock/">-->
             <!--<strong>&laquo; Previous Demo: </strong>BookBlock – A Content Flip Plugin-->
         <!--</a>-->
                 <!--<span class="right">-->
-                    <!--<a href="http://tympanus.net/codrops/2012/09/12/creative-web-typography-styles/">-->
-                        <!--<strong>Back to the Codrops Article</strong>-->
-                    <!--</a>-->
+                	<!--<a href="http://www.flickr.com/photos/klallier/3715569167/">Image by Kevin Lallier</a>-->
+                   <!--<a href="http://tympanus.net/codrops/2012/09/12/creative-web-typography-styles/">-->
+                       <!--<strong>Back to the Codrops Article</strong>-->
+                   <!--</a>-->
                 <!--</span>-->
         <!--<div class="clr"></div>-->
     <!--</div>&lt;!&ndash;/ Codrops top bar &ndash;&gt;-->
@@ -50,40 +39,46 @@
         <!--<h2>Fun with text styles and effects</h2>-->
 
         <!--<nav class="codrops-demos">-->
-            <!--<a href="index.html">Demo 1</a>-->
+            <!--<a class="current-demo" href="index.html">Demo 1</a>-->
             <!--<a href="index2.html">Demo 2</a>-->
             <!--<a href="index3.html">Demo 3</a>-->
             <!--<a href="index4.html">Demo 4</a>-->
             <!--<a href="index5.html">Demo 5</a>-->
             <!--<a href="index6.html">Demo 6</a>-->
-            <!--<a class="current-demo" href="index7.html">Demo 7</a>-->
+            <!--<a href="index7.html">Demo 7</a>-->
             <!--<a href="index8.html">Demo 8</a>-->
         <!--</nav>-->
 
-        <!--<div class="support-note">&lt;!&ndash; let's check browser support with modernizr &ndash;&gt;-->
-            <!--<span class="no-csstransforms">CSS transforms are not supported in your browser</span>-->
-            <!--<span class="no-csstransitions">CSS transitions are not supported in your browser</span>-->
-            <!--<span class="note-ie">Sorry, only modern browsers.</span>-->
-        <!--</div>-->
+        <div class="support-note"><!-- let's check browser support with modernizr -->
+            <span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+            <span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+            <span class="note-ie">Sorry, only modern browsers.</span>
+        </div>
 
-    <!--</header>-->
+    </header>
 
     <section class="main">
 
         <h2 class="cs-text">
-            <span>c</span>
-            <span>o</span>
-            <span>n</span>
-            <span>g</span>
-            <span>r</span>
-            <span>a</span>
-            <span>t</span>
-            <span></span>
+            <span class="cs-text-cut">Happy</span>
+            <span class="cs-text-mid">Birthday</span>
+            <span class="cs-text-cut">Happy</span>
         </h2>
 
     </section>
+    <div class="extra-text">
+        <div>Betty Lum<div>
+    </div>
 
 </div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.lettering.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".cs-text-cut").lettering('words');
+    });
+</script>
 <script src="js/demoad.js"></script>
 </body>
 </html>
